@@ -23,6 +23,7 @@ class Program {
         obiekt1.Wyslij("Dziękuję");
 
         System.in.read();
+        
     }
 }
 abstract class Mediator {
