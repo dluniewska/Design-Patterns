@@ -6,10 +6,8 @@ import java.io.IOException;
  * Creational Design Pattern Singleton
  **/
 
-public final class Singleton {
 
-    private static Singleton _instancja;
-
+class Program {
     public static void main(String[] args) throws IOException {
 
         Singleton singleton1 = Singleton.zwrocInstancje();
@@ -24,6 +22,10 @@ public final class Singleton {
 
         System.in.read();
     }
+}
+public final class Singleton {
+
+    private static Singleton _instancja;
 
     protected Singleton() {
 
